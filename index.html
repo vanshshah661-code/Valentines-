@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+  <div class="page-content">
+    <div>
+      <h1>Will you be my Valentine? 💘</h1>
+
+      <div class="buttons">
+        <button onclick="nextPage(2)">Yes 💕</button>
+        <button id="noBtn">No 😤</button>
+      </div>
+
+      <p class="small">Click to see why</p>
+    </div>
+
+    <img src="C:\Users\shahm\Downloads\image-removebg-preview (3).png" class="photo">
+  </div>
+</section>
+
+
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+  <div class="page-content">
+    
+    <div>
+      <h1>This is what makes you so different 🌸</h1>
+      <button onclick="nextPage(3)">and it is… ☁️</button>
+    </div>
+
+    <img src="C:\Users\shahm\Downloads\image-removebg-preview (4).png" class="photo">
+  </div>
+</section>
+
+
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+  <div class="page-content">
+    <div>
+  <h1>Reasons 💌</h1>
+  <ul>
+    <li>✨ You are everything I ever needed</li>
+    <li>✨ You feel like home</li>
+    <li>✨ Life is better with you</li>
+    <li>✨ You are the spice of my life</li>
+    <li>✨ I am me with only you</li>
+  </ul>
+  <button onclick="nextPage(4)">I have a gift for you 🎁</button>
+    </div>
+
+    <img src="C:\Users\shahm\Downloads\image-removebg-preview (5).png" class="photo">
+  </div>
+</section>
+
+<!-- PAGE 4 -->
+<section class="page" id="page4">
+  <h1>Choose your gift 💝</h1>
+
+  <div class="gifts">
+
+    <div onclick="gift('Flower Bouquet')">
+      🌸 Flower Bouquet <3
+      <div class="gift-images">
+        <img src="C:\Users\shahm\Downloads\image-removebg-preview.png">
+      </div>
+    </div>
+
+    <div onclick="gift('Date')">
+      🌹 A Date <3
+      <div class="gift-images">
+        <img src="C:\Users\shahm\Downloads\download (1).png">
+      </div>
+    </div>
+
+    <div onclick="gift('A Surprise Gift')">
+      🎁 A Surprise Gift <3
+      <div class="gift-images">
+        <img src="C:\Users\shahm\Downloads\image-removebg-preview (1).png">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
